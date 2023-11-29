@@ -1,0 +1,118 @@
+body{
+    background-image: url(img/teste2.jpg)
+  
+}
+header{
+    text-align: center;
+}
+
+h1#t1{
+    margin-top: -2px;
+    font-size: 120px;
+    
+
+}
+h2#divisao{
+    border-bottom: 5px solid black;
+    padding-bottom: 50px;
+}
+section.principal h2{
+    font-size: 50px;
+   
+}
+section.principal h3{
+    font-size: 30px;
+}
+section.principal p{
+    font-size: 25px;
+}
+ .shadow{
+    color: black;
+    text-shadow: 2px 2px 2px rgb(166, 126, 3);
+ }
+
+
+section.principal{
+    
+    text-align: center;
+    border: 2px solid black;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(120, 118, 118) ;
+    
+    
+}
+
+div.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: -40px;
+   
+}
+
+section#prin1{
+width: 30%;
+
+}
+
+section#prin2{
+    width: 40%;
+    border-left: 1.5px dashed black;
+    border-right: 1.5px dashed black;
+}
+
+section#prin3{
+    width: 30%;
+}
+
+section.p{
+    padding: 20px;
+}
+
+  
+section#iframe{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+    
+}
+section#iframe iframe{
+    height: 600px;
+    width: 800px;
+}
+iframe :-webkit-scrollbar{
+    display: none;
+}
+
+section#links{
+    width: 25%;
+border-left: 2px solid black;
+border-right: 2px solid black;
+margin-right: 100px;
+
+
+}
+
+iframe#paulo{
+    border: none;
+    overflow: hidden;
+   height: 100px;
+   width: 100px;
+}
+
+a{
+    font-size: 50px;
+}
+a:link{
+    color: black;
+    text-shadow: 2px 2px 2px rgb(166, 126, 3);
+
+}
+a:visited{
+    color: black;
+    text-shadow: 2px 2px 2px rgb(166, 126, 3);
+}
+
